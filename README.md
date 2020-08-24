@@ -53,55 +53,60 @@ composition of R_s, R_l, P_s and P_l are provided below the network structure, w
 
 ### Quantitative Results
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/DnDTable.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CNNvsMachine.png">
 </p>
 The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSIDTable.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/PLCNNvsTCNN.PNG">
 </p>
 The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
 
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/EffectDecreasingTraining.PNG">
+</p>
+
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/ETAS_accuracy.PNG">
+</p>
+
+
 For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
 
-### Visual Results
-![Visual_PSNR_DnD1](/Figs/DnD.PNG)
+### Confusion matrices 
 A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
 
-![Visual_PSNR_DnD2](/Figs/DnD2.PNG)
-![Visual_PSNR_Dnd3](/Figs/DnD3.PNG)
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/CHO_CM.PNG">
+</p>
+
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/DeepYeast_CM.PNG">
+</p>
+
 Comparison on more samples from DnD. The sharpness of the edges on the objects and textures restored by our method is the best.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/RNI15.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/Correctpredict.PNG">
 </p>
-A real high noise example from RNI15 dataset. Our method is able to remove the noise in textured and smooth areas without introducing artifacts
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSID.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/PLCNNvsTCNNGraph.PNG">
 </p>
-A challenging example from SSID dataset. Our method can remove noise and restore true colors
 
-![Visual_PSNR_SSIM_BI](/Figs/SSID3.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/SSID2.PNG)
+
+![Visual_PSNR_SSIM_BI](/Figs/CAM1.PNG)
+![Visual_PSNR_SSIM_BI](/Figs/CAM2.PNG)
 Few more examples from SSID dataset.
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
-@article{anwar2019ridnet,
-  title={Real Image Denoising with Feature Attention},
-  author={Anwar, Saeed and Barnes, Nick},
-  journal={IEEE International Conference on Computer Vision (ICCV-Oral)},
+@article{tahir2019PLCNN,
+  title={Deep localization of protein structures in fluorescence microscopy images},
+  author={Tahir, Muhammad and Anwar, Saeed and Mian, Ajmal},
+  journal={arXiv preprint arXiv:1910.04287},
   year={2019}
 }
 
-@article{Anwar2020IERD,
-  author = {Anwar, Saeed and Huynh, Cong P. and Porikli, Fatih },
-    title = {Identity Enhanced Image Denoising},
-    journal={IEEE Computer Vision and Pattern Recognition Workshops (CVPRW)},
-    year={2020}
-}
 ```
-## Acknowledgements
-This code is built on [DRLN (PyTorch)](https://github.com/saeed-anwar/DRLN)
