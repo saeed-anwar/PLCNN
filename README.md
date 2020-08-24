@@ -58,16 +58,16 @@ composition of R_s, R_l, P_s and P_l are provided below the network structure, w
 The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNN.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNN.png">
 </p>
 The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/EffectDecreasingTraining.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/EffectDecreasingTraining.png">
 </p>
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/ETAS_accuracy.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/ETAS_accuracy.png">
 </p>
 
 
@@ -77,26 +77,26 @@ For more information, please refer to our [papar](https://arxiv.org/abs/1904.073
 A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CHO_CM.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CHO_CM.png">
 </p>
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/DeepYeast_CM.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/DeepYeast_CM.png">
 </p>
 
 Comparison on more samples from DnD. The sharpness of the edges on the objects and textures restored by our method is the best.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/Correctpredict.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/Correctpredict.png">
 </p>
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.png">
 </p>
 
 
-![Visual_PSNR_SSIM_BI](/images/CAM1.PNG)
-![Visual_PSNR_SSIM_BI](/images/CAM2.PNG)
+![Visual_PSNR_SSIM_BI](/images/CAM1.png)
+![Visual_PSNR_SSIM_BI](/images/CAM2.png)
 Few more examples from SSID dataset.
 
 ## Citation
