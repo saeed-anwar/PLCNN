@@ -78,38 +78,37 @@ ETAS accuracies for individual members of ensemble on CHO dataset for tau = 40.
 For more information, please refer to our [papar](https://arxiv.org/pdf/1910.04287.pdf)
 
 ### Confusion matrices 
-*The confusion matrices for different datasets.*
+**The confusion matrices for different datasets.**
 
+Confusion matrix for CHO dataset. The rows present the actual organelle class while the columns show the predicted ones. The results are aggregated for 10-fold cross-validations. The accuracies for each class are summarized in the last row as well as columns.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CHO_CM.png">
 </p>
-Confusion matrix for CHO dataset. The rows present the actual organelle class while the columns show the predicted ones. The results are aggregated for 10-fold cross-validations. The accuracies for each class are summarized in the last row as well as columns.
 
+Confusion matrix for Yeast dataset. The predicted organelle are shown in the columns while the true values are present in the rows. The summaries of accuracies are given in the last row and column.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/DeepYeast_CM.png">
 </p>
 
-Confusion matrix for Yeast dataset. The predicted organelle are shown in the columns while the true values are present in the rows. The summaries of accuracies are given in the last row and column.
 
+The correct predictions are highlighted via green while the red depicts incorrect. Our method prediction score is high for true outcome and vice versa.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/Correctpredict.png">
 </p>
-The correct predictions are highlighted via green while the red depicts incorrect. Our method prediction score is high for true outcome and vice versa.
 
+The average quantitative results of ten execution for each method on the HeLa dataset. Our PLCNN method consistently outperforms with a significant margin.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.png">
 </p>
-The average quantitative results of ten execution for each method on the HeLa dataset. Our PLCNN method consistently outperforms with a significant margin.
 
+
+Visualization results from Grad-CAM. The visualization is computed for the last convolutional outputs, and the corresponding algorithms are shown in the left column the input images
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CAM1.png">
 </p>
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CAM2.png">
 </p>
-
-Visualization results from Grad-CAM. The visualization is computed for the last convolutional outputs, and the corresponding algorithms are shown in the left column the input images
-
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
