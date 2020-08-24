@@ -52,31 +52,33 @@ composition of R_s, R_l, P_s and P_l are provided below the network structure, w
 **All the results for HeLa, CHO, Endo, Trans and Yeast.** 
 
 ### Quantitative Results
+
+Performance comparison with machine learning and CNN-Specific algorithms. The “Endo” and “Trans” is the abbreviation for LOCATE Endogenous and Transfected datasets, respectively. Best results are highlighted in bold.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CNNvsMachine.png">
 </p>
-Performance comparison with machine learning and CNN-Specific algorithms. The “Endo” and “Trans” is the abbreviation for LOCATE Endogenous and Transfected datasets, respectively. Best results are highlighted in bold.
 
+
+Performance against traditional CNN methods using Yeast and HeLa datasets. The best results are in bold.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNN.png">
 </p>
-Performance against traditional CNN methods using Yeast and HeLa datasets. The best results are in bold.
 
+The effect of decreasing the training dataset. It can be observed that the performance decrease for traditional ensemble algorithms with the decrease in training data while, on the other hand, PLCNN gives a consistent performance with a negligible difference.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/EffectDecreasingTraining.png">
 </p>
-The effect of decreasing the training dataset. It can be observed that the performance decrease for traditional ensemble algorithms with the decrease in training data while, on the other hand, PLCNN gives a consistent performance with a negligible difference.
 
+ETAS accuracies for individual members of ensemble on CHO dataset for tau = 40.
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/ETAS_accuracy.png">
 </p>
-ETAS accuracies for individual members of ensemble on CHO dataset for tau = 40.
 
 
 For more information, please refer to our [papar](https://arxiv.org/pdf/1910.04287.pdf)
 
 ### Confusion matrices 
-A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
+*The confusion matrices for different datasets.*
 
 <p align="center">
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CHO_CM.png">
