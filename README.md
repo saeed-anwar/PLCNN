@@ -77,26 +77,26 @@ For more information, please refer to our [papar](https://arxiv.org/abs/1904.073
 A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/CHO_CM.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CHO_CM.PNG">
 </p>
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/DeepYeast_CM.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/DeepYeast_CM.PNG">
 </p>
 
 Comparison on more samples from DnD. The sharpness of the edges on the objects and textures restored by our method is the best.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/Correctpredict.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/Correctpredict.PNG">
 </p>
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/Figs/PLCNNvsTCNNGraph.PNG">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.PNG">
 </p>
 
 
-![Visual_PSNR_SSIM_BI](/Figs/CAM1.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/CAM2.PNG)
+![Visual_PSNR_SSIM_BI](/images/CAM1.PNG)
+![Visual_PSNR_SSIM_BI](/images/CAM2.PNG)
 Few more examples from SSID dataset.
 
 ## Citation
