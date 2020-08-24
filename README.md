@@ -98,7 +98,7 @@ The correct predictions are highlighted via green while the red depicts incorrec
 
 The average quantitative results of ten execution for each method on the HeLa dataset. Our PLCNN method consistently outperforms with a significant margin.
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.png">
+  <img width="400" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.png">
 </p>
 
 
