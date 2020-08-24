@@ -94,9 +94,13 @@ Comparison on more samples from DnD. The sharpness of the edges on the objects a
   <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/PLCNNvsTCNNGraph.png">
 </p>
 
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CAM1.png">
+</p>
+<p align="center">
+  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/CAM2.png">
+</p>
 
-![Visual_PSNR_SSIM_BI](/images/CAM1.png)
-![Visual_PSNR_SSIM_BI](/images/CAM2.png)
 Few more examples from SSID dataset.
 
 ## Citation
