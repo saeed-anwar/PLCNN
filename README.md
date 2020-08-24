@@ -66,7 +66,7 @@ Performance against traditional CNN methods using Yeast and HeLa datasets. The b
 
 The effect of decreasing the training dataset. It can be observed that the performance decrease for traditional ensemble algorithms with the decrease in training data while, on the other hand, PLCNN gives a consistent performance with a negligible difference.
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/EffectDecreasingTraining.png">
+  <img width="400" src="https://github.com/saeed-anwar/PLCNN/blob/master/images/EffectDecreasingTraining.png">
 </p>
 
 ETAS accuracies for individual members of ensemble on CHO dataset for tau = 40.
