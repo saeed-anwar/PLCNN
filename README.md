@@ -1,7 +1,7 @@
-# Deep localization of protein structures in fluorescence microscopy images
+# Deep Localization of Protein Structures in Fluorescence Microscopy Images
 This repository is for Deep localization of protein structures in fluorescence microscopy images (PLCNN) introduced in the following paper
 
-Muhammad Tahir, [Saeed Anwar](https://saeed-anwar.github.io/), and [Ajmal Mian](https://research-repository.uwa.edu.au/en/persons/ajmal-mian), "[Deep localization of protein structures in fluorescence microscopy images](https://arxiv.org/abs/1910.04287)" 
+Muhammad Tahir, [Saeed Anwar](https://saeed-anwar.github.io/), and [Ajmal Mian](https://research-repository.uwa.edu.au/en/persons/ajmal-mian), "[Deep Localization of Protein Structures in Fluorescence Microscopy Images](https://arxiv.org/abs/1910.04287)" 
 
 The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1). 
 
@@ -43,8 +43,8 @@ composition of R_s, R_l, P_s and P_l are provided below the network structure, w
     **You can use the following script to test the algorithm**
 
     ```bash
-    #RIDNET
-    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/ridnet.pt --test_only --save_results --save 'RIDNET_RNI15' --testpath ../LR/LRBI/ --testset RNI15
+    #PLCNN
+    CUDA_VISIBLE_DEVICES=0 python main.py 
     ```
 
 
