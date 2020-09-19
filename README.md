@@ -1,7 +1,7 @@
 # Deep Localization of Protein Structures in Fluorescence Microscopy Images
 This repository is for Deep localization of protein structures in fluorescence microscopy images (PLCNN) introduced in the following paper
 
-Muhammad Tahir, [Saeed Anwar](https://saeed-anwar.github.io/), and [Ajmal Mian](https://research-repository.uwa.edu.au/en/persons/ajmal-mian), "[Deep Localization of Protein Structures in Fluorescence Microscopy Images](https://arxiv.org/abs/1910.04287)" 
+Muhammad Tahir, [Saeed Anwar](https://saeed-anwar.github.io/), and [Ajmal Mian](https://research-repository.uwa.edu.au/en/persons/ajmal-mian), "[Deep Localization of Protein Structures in Fluorescence Microscopy Images](https://arxiv.org/abs/1910.04287)",  arXiv, 2020 
 
 The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1). 
 
