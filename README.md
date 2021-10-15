@@ -115,7 +115,7 @@ If you find the code helpful in your resarch or work, please cite the following 
 ```
 @article{tahir2019PLCNN,
   title={Deep localization of protein structures in fluorescence microscopy images},
-  author={Tahir, Muhammad and Anwar, Saeed and Mian, Ajmal},
+  author={Tahir, Muhammad and Anwar, Saeed and Mian, Ajmal and Wahab Muzaffar, Abdul},
   journal={arXiv preprint arXiv:1910.04287},
   year={2019}
 }
